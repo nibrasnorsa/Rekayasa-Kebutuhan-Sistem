@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A52A2A">
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/lin1">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            android:layout_marginLeft="15dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="90dp"
+            android:background="#E9967A">
+
+            <EditText
+                android:layout_width="130dp"
+                android:layout_height="50dp"/>
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="45dp"
+                android:src="@drawable/ic_baseline_search"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_baseline_account_user"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/lin1"
+        android:id="@+id/lin2"
+        android:layout_marginTop="35dp">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_dash"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="|"
+            android:textSize="30dp"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_home"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="|"
+            android:textSize="30dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar Fakultas"
+            android:layout_marginLeft="10dp"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="|"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_info"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lin2"
+        android:id="@+id/lin3"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/jdl"
+            android:text="Pemrograman Mobile"
+            android:textSize="30dp"
+            android:background="#CC9972"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jdl"
+            android:id="@+id/text1"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:text="Selamat datang di kelas Pemrograman Mobile. Mata kuliah ini akan mengajarkan mahasiswa untuk membuat aplikasi bergerak pada platform spesifik. Mata kuliah ini bertujuan untuk membekali mahasiswa dengan penerapan konsep pemrograman berorientasi objek dalam menghasilkan aplikasi berbasis mobile. Pembahasan materi akan berkisar antara lingkungan pengembangan, siklus aktifitas, rancangan antar muka, internal basis data, interoperabilitas sistem, pemrograman lokasi dan peta serta distribusi dan publikasi aplikasi mobile."
+            android:textColor="#FFFF"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/lin3"
+        android:id="@+id/lin4"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="#D9A886">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_create"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tugas 1"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lin4"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20dp"
+        android:text="Pengantar Pemrograman Mobile"
+        android:textColor="#FFFF"/>
+
+</RelativeLayout>
