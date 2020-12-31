@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/judul"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="SELAMAT DATANG"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/judul"
+        android:id="@+id/post"
+        android:layout_centerHorizontal="true"
+        android:text="E-Learning"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/post"
+        android:id="@+id/gmbr"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/gmbr"
+        android:id="@+id/el1"
+        android:background="#A52A2A">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/ic_baseline_account_user"/>
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/el1"
+        android:id="@+id/el2"
+        android:background="#A52A2A">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/ic_baseline_pass"/>
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/check"
+        android:layout_below="@id/el2"
+        android:layout_marginLeft="15dp"
+        android:text="Setuju syarat dan ketentuan"
+        android:textSize="20dp"
+        android:checked="true"
+        />
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/check"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/msk"
+            android:text="Masuk"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:background="#E9967A"/>
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:id="@+id/dftar"
+            android:text="Daftar"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="120dp"
+            android:background="#E9967A"/>
+    </LinearLayout>
+
+</RelativeLayout>
